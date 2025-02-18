@@ -63,16 +63,4 @@ public class Pilha {
         return elemento;
     }
 
-    @Override
-    public String toString() {
-        String elementos = "[";
-
-        for (int c = 0; c < tamanho -1; c++) {
-            elementos += (this.elementos[c] + ",");
-        }
-
-        elementos += this.elementos[tamanho -1] + "]";
-
-        return elementos;
-    }
 }
